@@ -1,0 +1,16 @@
+.add-option {
+    display: flex;
+    padding: $m-size;
+}
+
+.add-option__input {
+    flex-grow: 1;
+    margin-right: $s-size;
+    padding: $s-size;
+}
+
+.option-modal {
+    background: $light-blue;
+    color: #ffffff;
+    text-align: center;
+}

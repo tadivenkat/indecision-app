@@ -1,0 +1,38 @@
+.widget {
+    background: $light-blue;
+    padding: $m-size;
+    margin-bottom: $xl-size;
+}
+
+.widget-header {
+    background: $blue;
+    color: $off-white;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+}
+
+.widget__message {
+    color: $off-white;
+    font-style: italic;
+    margin: 0;
+    padding: $l-size;
+    text-align: center;
+    border-bottom: .1rem solid lighten($light-blue, 10%);
+}
+
+h3 {
+    margin: 0;
+}
+
+ul {
+    padding: $s-size;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+    border-bottom: .1rem solid lighten($light-blue, 10%);
+    word-break: break-all; 
+}
